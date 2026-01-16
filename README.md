@@ -1,420 +1,409 @@
-# TailAdmin Laravel - Tailwind CSS Free Laravel Dashboard
+# WFM Reporter - Workforce Management System
 
-**TailAdmin Laravel** is a modern, production-ready admin dashboard template powered by **Laravel 12**, **Tailwind CSS v4**, **Alpine.js**, and a clean, modular architecture. TailAdmin is one of the most popular Tailwind CSS dashboard now also available for Larvael. It’s designed for building fast, scalable admin panels, CRM dashboards, SaaS backends, and any data-driven application where clarity and performance matter.
-![TailAdmin - Next.js Dashboard Preview](./tailadmin-laravel.png)
+**WFM Reporter** es un sistema completo de Workforce Management (WFM) diseñado específicamente para contact centers. Desarrollado con **Laravel 11**, **PostgreSQL**, y **Tailwind CSS**, integra funcionalidades avanzadas de forecasting, staffing, scheduling y Real-Time Adherence (RTA) para optimizar la gestión de personal en entornos de atención al cliente.
 
+![WFM Reporter](./tailadmin-laravel.png)
 
-## Quick Links
+## ✨ Características Principales
 
-* [✨ Get TailAdmin Laravel](https://tailadmin.com/laravel)
-* [📄 Documentation](https://tailadmin.com/docs)
-* [⬇️ Download](https://tailadmin.com/download)
-* [🌐 Live Demo](https://laravel-demo.tailadmin.com)
+### 📊 Forecasting y Análisis Predictivo
+- **Erlang-C/AHT Calculation**: Modelos matemáticos precisos para predecir volumen de llamadas y tiempo de manejo promedio
+- **Intervalos de 15 minutos**: Análisis granular de demanda por intervalos estándar
+- **Shrinkage Management**: Cálculo automático de pérdidas por ausencias, capacitación y otras variables
 
-Here’s a tighter, more search-friendly version that highlights value and avoids fluff while keeping your structure intact.
+### 👥 Gestión de Personal
+- **Staffing Optimization**: Cálculo automático de FTE requeridos basado en niveles de servicio (80/20)
+- **Gestión de Skills**: Asignación de competencias y especializaciones por agente
+- **Control de Ausencias**: Seguimiento de vacaciones, permisos y ausentismo
 
-## ✨ Key Features
+### 📅 Programación Inteligente
+- **Scheduling Automatizado**: Generación de horarios basada en reglas de negocio y disponibilidad
+- **Gestión de Turnos**: Plantillas de turnos flexibles con breaks y rotaciones
+- **Workflow de Aprobaciones**: Sistema de solicitudes y aprobaciones para cambios de horario
 
-* 🚀 **Laravel 12 Core** - Built on the latest Laravel release with improved routing, security, and Blade templating
-* 🎨 **Tailwind CSS v4** - Utility-first styling for rapid, consistent UI development
-* ⚡ **Alpine.js Interactivity** - Lightweight reactivity without a heavy JavaScript framework
-* 📦 **Vite Build System** - Fast dev server, instant HMR, and optimized production builds
-* 📱 **Fully Responsive Layouts** - Smooth, mobile-first design that adapts across all screen sizes
-* 🌙 **Built-in Dark Mode** - Ready-to-use modern dark theme for better usability and aesthetics
-* 📊 **Advanced UI Components** - Charts, data tables, forms, calendars, modals, and reusable blocks for complex dashboards
-* 🎯 **Production-Ready Dashboard UI** - Clean, modern interface crafted for real apps, not placeholder demos
+### 📈 Real-Time Adherence (RTA)
+- **Monitoreo en Tiempo Real**: Seguimiento de cumplimiento de horarios vs. actividad real
+- **Alertas Automáticas**: Notificaciones de desviaciones y ausencias no programadas
+- **Reportes de Adherencia**: Métricas detalladas de cumplimiento por agente y equipo
 
-### Other Versions
+### 🔐 Seguridad y Control de Acceso
+- **RBAC (Role-Based Access Control)**: Roles de Admin, Supervisor, Analista y Agente
+- **Autenticación API**: Tokens Sanctum para acceso seguro a endpoints
+- **Auditoría**: Registro completo de cambios y operaciones críticas
 
-- [Next.js Version](https://github.com/TailAdmin/free-nextjs-admin-dashboard)
-- [React.js Version](https://github.com/TailAdmin/free-react-tailwind-admin-dashboard)
-- [Vue.js Version](https://github.com/TailAdmin/vue-tailwind-admin-dashboard)
-- [Angular Version](https://github.com/TailAdmin/free-angular-tailwind-dashboard)
-- [Laravel Version](https://github.com/TailAdmin/tailadmin-laravel)
+## 🛠️ Tecnologías Utilizadas
 
-## 📋 Requirements
-To set up TailAdmin Laravel, make sure your environment includes:
+- **Backend**: PHP 8.2+ con Laravel 11.x
+- **Base de Datos**: PostgreSQL 15+
+- **ORM**: Eloquent ORM con relaciones complejas
+- **Autenticación**: Laravel Sanctum para API tokens
+- **Autorización**: Spatie Laravel Permission para RBAC
+- **Frontend**: Tailwind CSS v4 + Alpine.js para interactividad
+- **Build System**: Vite para desarrollo y optimización
+- **Testing**: Pest PHP para pruebas automatizadas
+- **Queue System**: Laravel Queues para procesamiento asíncrono
 
-* **PHP 8.2+**
-* **Composer** (PHP dependency manager)
-* **Node.js 18+** and **npm** (for compiling frontend assets)
-* **Database** - Works with SQLite (default), MySQL, or PostgreSQL
+## 📋 Requisitos del Sistema
 
-### Tailwind CSS Laravel Dashboard
+- **PHP**: 8.2 o superior
+- **Composer**: Para gestión de dependencias PHP
+- **Node.js**: 18+ y npm para assets frontend
+- **PostgreSQL**: 15+ para base de datos
+- **Git**: Para control de versiones
 
-TailAdmin delivers a refined Tailwind CSS Laravel Dashboard experience, combining Laravel’s robust backend with Tailwind’s flexible utility classes. The result is a clean, fast, and customizable dashboard that helps developers build modern admin interfaces without the usual front-end complexity. It’s ideal for teams looking for a Tailwind-powered Laravel starter that stays lightweight and easy to scale.
-
-### Laravel Admin Dashboard
-
-If you’re searching for a dependable Laravel Admin Dashboard template that’s easy to set up and ready for production, TailAdmin fits the job. It offers a polished UI, reusable components, optimized performance, and all the essentials needed to launch dashboards, CRM systems, and internal tools quickly. It gives developers a solid foundation, so projects move faster with fewer decisions to worry about.
-
-### Check Your Environment
-
-Verify your installations:
-
-```bash
-php -v
-composer -V
-node -v
-npm -v
-```
-
-## 🚀 Quick Start Installation
-
-### Step 1: Clone the Repository
+### Verificar Instalaciones
 
 ```bash
-git clone https://github.com/TailAdmin/tailadmin-laravel.git
-cd tailadmin-laravel
+php -v          # PHP 8.2+
+composer -V     # Composer
+node -v         # Node.js 18+
+npm -v          # npm
+psql --version  # PostgreSQL
 ```
 
-### Step 2: Install PHP Dependencies
+## 🚀 Instalación y Configuración
+
+### Paso 1: Clonar el Repositorio
+
+```bash
+git clone https://github.com/castillostack/workforce.git
+cd wfm-reporter
+```
+
+### Paso 2: Instalar Dependencias PHP
 
 ```bash
 composer install
 ```
 
-This command will install all Laravel dependencies defined in `composer.json`.
-
-### Step 3: Install Node.js Dependencies
+### Paso 3: Instalar Dependencias Node.js
 
 ```bash
 npm install
 ```
 
-Or if you prefer yarn or pnpm:
-
-```bash
-# Using yarn
-yarn install
-
-# Using pnpm
-pnpm install
-```
-
-### Step 4: Environment Configuration
-
-Copy the example environment file:
+### Paso 4: Configurar Variables de Entorno
 
 ```bash
 cp .env.example .env
 ```
 
-**For Windows users:**
+Editar `.env` con tus configuraciones:
 
-```bash
-copy .env.example .env
+```env
+APP_NAME="WFM Reporter"
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=true
+APP_URL=http://localhost
+
+# Base de Datos PostgreSQL
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=wfm_reporter
+DB_USERNAME=tu_usuario
+DB_PASSWORD=tu_password
+
+# Cache y Sesiones
+CACHE_DRIVER=file
+QUEUE_CONNECTION=database
+SESSION_DRIVER=file
+
+# Sanctum para API
+SANCTUM_STATEFUL_DOMAINS=localhost,127.0.0.1
 ```
 
-**Or create it programmatically:**
-
-```bash
-php -r "file_exists('.env') || copy('.env.example', '.env');"
-```
-
-### Step 5: Generate Application Key
+### Paso 5: Generar Clave de Aplicación
 
 ```bash
 php artisan key:generate
 ```
 
-This creates a unique encryption key for your application.
+### Paso 6: Configurar Base de Datos
 
-### Step 6: Configure Database
+Crear la base de datos en PostgreSQL:
 
-#### Option A: Using MySQL/PostgreSQL
-
-Update your `.env` file with your database credentials:
-
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=tailadmin_db
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
+```sql
+CREATE DATABASE wfm_reporter;
 ```
 
-Create the database:
-
-```bash
-# MySQL
-mysql -u root -p -e "CREATE DATABASE tailadmin_db;"
-
-# PostgreSQL
-createdb tailadmin_db
-```
-
-Run migrations:
+Ejecutar migraciones:
 
 ```bash
 php artisan migrate
 ```
 
-### Step 7: (Optional) Seed the Database
-
-If you want sample data:
+### Paso 7: Poblar Datos Iniciales
 
 ```bash
 php artisan db:seed
 ```
 
-### Step 8: Storage Link
+Esto creará:
+- Roles y permisos (admin, supervisor, analyst, agent)
+- Usuarios de prueba con empleados asociados
+- Departamentos y equipos de ejemplo
 
-Create a symbolic link for file storage:
+### Paso 8: Enlazar Storage
 
 ```bash
 php artisan storage:link
 ```
 
-## 🏃 Running the Application
+## 🏃 Ejecutar la Aplicación
 
-### Development Mode (Recommended)
-
-The easiest way to start development is using the built-in script:
+### Modo Desarrollo (Recomendado)
 
 ```bash
 composer run dev
 ```
 
-This single command starts:
-- ✅ Laravel development server (http://localhost:8000)
-- ✅ Vite dev server for hot module reloading
-- ✅ Queue worker for background jobs
-- ✅ Log monitoring
+Este comando inicia automáticamente:
+- ✅ Servidor Laravel (http://localhost:8000)
+- ✅ Servidor Vite para HMR
+- ✅ Worker de colas
+- ✅ Monitor de logs
 
-**Access your application at:** [http://localhost:8000](http://localhost:8000)
+### Configuración Manual
 
-### Manual Development Setup
-
-If you prefer to run services individually in separate terminal windows:
-
-**Terminal 1 - Laravel Server:**
+**Terminal 1 - Servidor Laravel:**
 ```bash
 php artisan serve
 ```
 
-**Terminal 2 - Frontend Assets:**
+**Terminal 2 - Assets Frontend:**
 ```bash
 npm run dev
 ```
 
-### Building for Production
-
-#### Build Frontend Assets
-
+**Terminal 3 - Colas (opcional):**
 ```bash
-npm run build
+php artisan queue:work
 ```
 
-#### Optimize Laravel
+## 📖 Uso del Sistema
 
+### Acceso Inicial
+
+Después de ejecutar los seeders, puedes acceder con:
+
+- **Admin**: admin@wfm.com / password123
+- **Supervisor**: supervisor@wfm.com / password123
+- **Analista**: analyst@wfm.com / password123
+- **Agente**: agent@wfm.com / password123
+
+### API Endpoints Principales
+
+#### Autenticación
 ```bash
-# Clear and cache configuration
-php artisan config:cache
+# Login
+POST /api/login
+{
+  "username": "admin",
+  "password": "password123"
+}
 
-# Cache routes
-php artisan route:cache
+# Logout
+POST /api/logout
+# Headers: Authorization: Bearer {token}
 
-# Cache views
-php artisan view:cache
-
-# Optimize autoloader
-composer install --optimize-autoloader --no-dev
+# Usuario autenticado
+GET /api/user
 ```
 
-#### Production Environment
+#### Gestión de Usuarios
+```bash
+# Perfil
+GET /api/profile
 
-Update your `.env` for production:
+# Actualizar perfil
+PUT /api/profile
 
-```env
-APP_ENV=production
-APP_DEBUG=false
-APP_URL=https://yourdomain.com
+# Cambiar contraseña
+POST /api/change-password
 ```
 
+#### Importación de Datos
+```bash
+# Importar datos Cisco
+POST /api/import/{type}
+# Types: calls, agents, chats, etc.
+```
+
+#### Reportes
+```bash
+# Adherencia por agente
+GET /api/report/adherence/{employeeId}
+
+# Métricas diarias
+GET /api/report/metrics
+```
+
+## 🏗️ Arquitectura del Sistema
+
+### Patrón Arquitectural
+- **Modular Monolith**: Arquitectura modular dentro de un monolito Laravel
+- **Capas Separadas**: Presentación → Servicios → Dominio → Infraestructura
+- **Inyección de Dependencias**: Servicios inyectados en controladores
+
+### Estructura de Directorios
+
+```
+wfm-reporter/
+├── app/
+│   ├── Http/Controllers/     # Controladores API
+│   ├── Models/              # Modelos Eloquent
+│   ├── Services/            # Lógica de negocio
+│   │   ├── Core/           # Servicios core
+│   │   ├── Wfm/            # Servicios WFM
+│   │   ├── Cisco/          # Integración Cisco
+│   │   └── Analytics/      # Servicios analíticos
+│   ├── Http/Middleware/     # Middleware personalizado
+│   └── Providers/          # Service Providers
+├── database/
+│   ├── migrations/         # Migraciones DB
+│   ├── seeders/           # Seeders de datos
+│   └── factories/         # Factories para tests
+├── resources/
+│   ├── views/             # Plantillas Blade
+│   ├── css/              # Estilos Tailwind
+│   └── js/               # JavaScript Alpine.js
+├── routes/
+│   ├── api.php           # Rutas API
+│   └── web.php           # Rutas web
+├── docs/                 # Documentación del proyecto
+│   ├── DATA_MODEL.md     # Modelo de datos
+│   ├── LOGICAL_ARCH.md   # Arquitectura lógica
+│   ├── USE_CASES.md      # Casos de uso
+│   └── DDL.md           # Esquema DB
+└── tests/               # Pruebas automatizadas
+```
+
+### Modelo de Datos
+
+El sistema maneja 27+ tablas organizadas en capas:
+
+- **Raw Data**: Datos crudos de Cisco UCCX
+- **Operational**: Datos operativos (usuarios, empleados, horarios)
+- **Analytical**: Datos analíticos (métricas, reportes)
+- **Quality**: Datos de calidad y forecasting
 
 ## 🧪 Testing
 
-Run the test suite using Pest:
+Ejecutar suite de pruebas:
 
 ```bash
 composer run test
 ```
 
-Or manually:
+O manualmente:
 
 ```bash
 php artisan test
 ```
 
-Run with coverage:
+Con cobertura:
 
 ```bash
 php artisan test --coverage
 ```
 
-Run specific tests:
+## 📜 Comandos Disponibles
+
+### Scripts Composer
 
 ```bash
-php artisan test --filter=ExampleTest
+composer run dev      # Ambiente desarrollo completo
+composer run test     # Ejecutar tests
 ```
 
-## 📜 Available Commands
-
-### Composer Scripts
+### Scripts NPM
 
 ```bash
-# Start development environment
-composer run dev
-
-# Run tests
-composer run test
-
-# Code formatting (if configured)
-composer run format
-
-# Static analysis (if configured)
-composer run analyze
+npm run dev          # Servidor Vite desarrollo
+npm run build        # Build producción
+npm run preview      # Preview build
 ```
 
-### NPM Scripts
+### Comandos Artisan
 
 ```bash
-# Start Vite dev server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Lint JavaScript/TypeScript
-npm run lint
-
-# Format code
-npm run format
+php artisan migrate:fresh --seed    # Reset DB con datos
+php artisan queue:work              # Procesar colas
+php artisan route:list              # Listar rutas
+php artisan make:controller         # Crear controlador
+php artisan make:model -m           # Crear modelo con migración
 ```
 
-### Artisan Commands
+## 🔧 Configuración Avanzada
+
+### Variables de Entorno
+
+```env
+# Forecasting
+ERLANG_C_PRECISION=4
+DEFAULT_SHRINKAGE=0.15
+
+# Service Levels
+DEFAULT_SERVICE_LEVEL=0.8
+DEFAULT_ANSWER_TIME=20
+
+# Intervals
+DEFAULT_INTERVAL_MINUTES=15
+
+# Queue Settings
+QUEUE_CONNECTION=database
+QUEUE_FAILED_DRIVER=database
+```
+
+### Jobs y Colas
+
+Para procesamiento de datos pesados:
 
 ```bash
-# Start development server
-php artisan serve
+# Procesar importaciones
+php artisan queue:work --queue=imports
 
-# Run migrations
-php artisan migrate
-
-# Rollback migrations
-php artisan migrate:rollback
-
-# Fresh migrations with seeding
-php artisan migrate:fresh --seed
-
-# Generate application key
-php artisan key:generate
-
-# Clear all caches
-php artisan optimize:clear
-
-# Cache everything for production
-php artisan optimize
-
-# Create symbolic link for storage
-php artisan storage:link
-
-# Start queue worker
-php artisan queue:work
-
-# List all routes
-php artisan route:list
-
-# Create a new controller
-php artisan make:controller YourController
-
-# Create a new model
-php artisan make:model YourModel -m
-
-# Create a new migration
-php artisan make:migration create_your_table
+# Procesar cálculos Erlang
+php artisan queue:work --queue=forecasting
 ```
 
-## 📁 Project Structure
+## 🤝 Contribución
 
-```
-tailadmin-laravel/
-├── app/                    # Application logic
-│   ├── Http/              # Controllers, Middleware, Requests
-│   ├── Models/            # Eloquent models
-│   └── Providers/         # Service providers
-├── bootstrap/             # Framework bootstrap files
-├── config/                # Configuration files
-├── database/              # Migrations, seeders, factories
-│   ├── migrations/
-│   ├── seeders/
-│   └── factories/
-├── public/                # Public assets (entry point)
-│   ├── build/            # Compiled assets (generated)
-│   └── index.php         # Application entry point
-├── resources/             # Views and raw assets
-│   ├── css/              # Stylesheets (Tailwind)
-│   ├── js/               # JavaScript files (Alpine.js)
-│   └── views/            # Blade templates
-├── routes/                # Route definitions
-│   ├── web.php           # Web routes
-│   ├── api.php           # API routes
-│   └── console.php       # Console routes
-├── storage/               # Logs, cache, uploads
-│   ├── app/
-│   ├── framework/
-│   └── logs/
-├── tests/                 # Pest test files
-│   ├── Feature/
-│   └── Unit/
-├── .env.example           # Example environment file
-├── artisan                # Artisan CLI
-├── composer.json          # PHP dependencies
-├── package.json           # Node dependencies
-├── vite.config.js         # Vite configuration
-└── tailwind.config.js     # Tailwind configuration
-```
+1. Fork el proyecto
+2. Crear rama feature (`git checkout -b feature/AmazingFeature`)
+3. Commit cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abrir Pull Request
 
-## 🐛 Troubleshooting
+### Estándares de Código
 
-### Common Issues
+- **PHP**: PSR-12, type hints obligatorios
+- **JavaScript**: ESLint configuration
+- **Commits**: Conventional commits
+- **Tests**: Cobertura mínima 80%
 
-#### "Class not found" errors
-```bash
-composer dump-autoload
-```
+## 📄 Documentación
 
-#### Permission errors on storage/bootstrap/cache
-```bash
-chmod -R 775 storage bootstrap/cache
-```
+Documentación completa disponible en `/docs/`:
 
-#### NPM build errors
-```bash
-rm -rf node_modules package-lock.json
-npm install
-```
+- **[DATA_MODEL.md](docs/DATA_MODEL.md)**: Modelo de datos detallado
+- **[LOGICAL_ARCH.md](docs/LOGICAL_ARCH.md)**: Arquitectura del sistema
+- **[USE_CASES.md](docs/USE_CASES.md)**: Casos de uso del negocio
+- **[DDL.md](docs/DDL.md)**: Esquema completo de base de datos
 
-#### Clear all caches
-```bash
-php artisan optimize:clear
-```
+## 📝 Licencia
 
-#### Database connection errors
-- Check `.env` database credentials
-- Ensure database server is running
-- Verify database exists
+Este proyecto está bajo la Licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
 
-## 🔄 Update Log
+## 👥 Soporte
 
-### [2025-12-29]
-- Added Date Picker in Statistics Chart
+Para soporte técnico o consultas:
+- 📧 Email: soporte@wfm-reporter.com
+- 📖 Docs: [Documentación Completa](docs/)
+- 🐛 Issues: [GitHub Issues](https://github.com/castillostack/workforce/issues)
 
-## License
+---
 
-Refer to our [LICENSE](https://tailadmin.com/license) page for more information.
+**Desarrollado con ❤️ para optimizar la gestión de personal en contact centers**
