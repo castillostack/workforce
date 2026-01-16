@@ -1,0 +1,103 @@
+﻿user_id;agent_id;extension;team_id;hire_date;status;employee_type;is_billable;vacation_day;created_at;position;manager_id;center;work_state
+1;vdelrio;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;AdministraciÃ³n DNASA
+2;mcastillo;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;AdministraciÃ³n DNASA
+3;milagonzalez;12345;;;active;;1;0;;Analista Control Y Monit. Serv.Aseg;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Control y Monitoreo
+4;wsabin;12345;;;active;;1;0;;Analista Control Y Monit. Serv.Aseg;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Control y Monitoreo
+5;jaquiros;12345;;;active;;1;0;;Analista Control Y Monit. Serv.Aseg;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Control y Monitoreo
+6;ferncastillo;12345;;;active;;1;0;;Analista Control Y Monit. Serv.Aseg;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Control y Monitoreo
+7;frchong;12345;;;active;;1;0;;Analista Control Y Monit. Serv.Aseg;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Control y Monitoreo
+8;jemoran;12345;;;active;;1;0;;Analista Control Y Monit. Serv.Aseg;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Control y Monitoreo
+9;dafuentes;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Coord. De Asist. Serv. Aseg.
+10;glguerra;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Coord. De Asist. Serv. Aseg.
+11;dreina;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Coord. De Asist. Serv. Aseg.
+12;lcortez;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Coord. De Asist. Serv. Aseg.
+13;vtejada;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Coord. De Asist. Serv. Aseg.
+14;vquiros;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Coord. De Asist. Serv. Aseg.
+15;antejada;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Coord. De Asist. Serv. Aseg.
+16;kchan;12345;;;active;;1;0;;Coord. Rend. Serv. De Asist. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;IngenierÃ­a DNASA
+17;loguevara;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;IngenierÃ­a DNASA
+18;aarchibold;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;IngenierÃ­a DNASA
+19;anbethancourt;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;IngenierÃ­a DNASA
+20;hfranco;12345;;;active;;1;0;;Admor. Soluciones Anal.Asist.Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;IngenierÃ­a DNASA
+21;dixguerrero;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;IngenierÃ­a DNASA
+22;yrahman;12345;;;active;;1;0;;Coord. De Asist. Serv. Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;IngenierÃ­a DNASA
+23;marmosquera;12345;;;active;;1;0;;Admor. Soluciones Anal.Asist.Aseg.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;IngenierÃ­a DNASA
+24;ralgandona;12345;;;active;;1;0;;Jefe Control Y Monitoreo Serv. Aseg;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Jefe DNASA
+25;ericgonzalezv;12345;;;active;;1;0;;Jefe Asist. Serv. Aseg. Serv. Pub.;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Jefe DNASA
+26;khubner;12345;;;active;;1;0;;Jefe De Seccion Iii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Jefe DNASA
+27;kbennett;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+28;aigraell;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+29;meljaramillo;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+30;maryherrera;12345;;;active;;1;0;;Analista De Calc. Pens. Y Subsidios;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+31;avelez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+32;rolaguilar;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+33;cacedeno;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+34;mnoval;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+35;locerrud;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Redes Sociales DNASA
+36;marielrodriguez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Supervisores DNASA
+37;jmina;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Supervisores DNASA
+38;jospinzon;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Supervisores DNASA
+39;neriortega;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Supervisores DNASA
+40;marjlopez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Supervisores DNASA
+41;marvillarreal;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Supervisores DNASA
+42;nivaldes;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Supervisores DNASA
+43;jearrocha;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+44;noregonzalez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+45;xaviles;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+46;sarrodriguez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+47;gaflores;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+48;kdominguez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+49;dmolino;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+50;yulrodriguez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+51;zestrada;12345;;;active;;1;0;;Investigador De Ingresos Ii;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+52;jpile;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+53;genemoreno;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+54;jingonzalez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+55;ensandoval;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+56;rossantamaria;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+57;kdurango;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+58;lizisazaq;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+59;novilla;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+60;yacastro;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+61;gcoronado;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+62;vedelacruz;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+63;arenteria;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+64;gorodriguez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+65;scoke;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+66;eshernandez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+67;lijuarez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+68;rubmorales;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+69;vimoran;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+70;yarmunoz;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+71;ivnunez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+72;ztrejos;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+73;yavallejos;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+74;melmartinez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+75;celirodriguez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+76;rmontero;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+77;Bramirez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+78;inggomez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+79;gisssanchez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+80;yamilgonzalez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+81;mereyes;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+82;glchanis;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+83;julcorrea;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+84;girgonzalez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+85;siolivares;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+86;jballis;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+87;nlondono;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+88;gman;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+89;lilmoreno;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+90;lmartinez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+91;ypineda;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+92;vplicett;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+93;ariasanchez;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+94;danitbatista;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+95;dancedeno;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+96;cacollado;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+97;yetienne;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+98;cvillaverde;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+99;jbrugiatti;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+100;tpolo;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+101;erphillips;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
+102;conavarro;12345;;;active;;1;0;;Operador Asist. Serv. Aseg. I;;DirecciÃ³n Nancional de Asistencia de los Servicios al Asegurado;Voz DNASA
