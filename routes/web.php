@@ -58,7 +58,7 @@ Route::get('/signin', function () {
     return view('pages.auth.signin', ['title' => 'Sign In']);
 })->name('signin');
 
-Route::post('/signin', [AuthController::class, 'login'])->name('signin.post');
+Route::post('/signin', [AuthController::class, 'webLogin'])->name('signin.post');
 
 Route::get('/signup', function () {
     return view('pages.auth.signup', ['title' => 'Sign Up']);
@@ -66,6 +66,9 @@ Route::get('/signup', function () {
 
 // POST for signup (if needed)
 Route::post('/signup', [AuthController::class, 'register'])->name('signup.post');
+
+// Web logout route
+Route::post('/logout', [AuthController::class, 'webLogout'])->middleware('auth')->name('logout');
 
 // health check
 Route::get('/up', function () {

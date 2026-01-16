@@ -39,16 +39,53 @@ class AuthController extends Controller
     }
 
     /**
-     * Logout de usuario.
+     * Login web de usuario (para formularios HTML).
      *
      * @param Request $request
-     * @return \Illuminate\Http\JsonResponse
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function logout(Request $request)
+    public function webLogin(Request $request)
     {
-        $request->user()->currentAccessToken()->delete();
+        $request->validate([
+            'username' => 'required|string',
+            'password' => 'required|string',
+        ]);
 
-        return response()->json(['message' => 'Sesión cerrada exitosamente.']);
+        $user = \App\Models\User::where('username', $request->username)->first();
+
+        if (!$user || !Hash::check($request->password, $user->password)) {
+            return back()->withErrors([
+                'username' => 'Credenciales incorrectas.',
+            ])->withInput($request->only('username'));
+        }
+
+        // Verificar si el usuario está activo
+        if (!$user->is_active) {
+            return back()->withErrors([
+                'username' => 'Su cuenta está desactivada.',
+            ])->withInput($request->only('username'));
+        }
+
+        // Login del usuario usando sesión web
+        Auth::login($user, $request->has('remember'));
+
+        return redirect()->intended('/');
+    }
+
+    /**
+     * Logout web de usuario.
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function webLogout(Request $request)
+    {
+        Auth::logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect('/signin');
     }
 
     /**
